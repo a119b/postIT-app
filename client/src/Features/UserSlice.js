@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { UsersData } from "../Exampledata";
+import * as ENV from "../config";
 
 import axios from "axios";
 
